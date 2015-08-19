@@ -139,6 +139,28 @@
       </footer>
     </div> <!-- /container -->
 
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form action="signup.php" method="post">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="modalLabel">Sign up for Curry Friday</h4>
+            </div>
+            <div class="modal-body">
+              <label for="panda">Email address</label>
+              <input type="hidden" name="bot1" id="bot1">
+              <input type="text" name="panda" id="panda">
+              <input type="hidden" name="bot2" id="bot2" value="yoloswagXxxX">
+            </div>
+            <div class="modal-footer">
+              <input type="submit" class="btn btn-primary" value="Signup">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
